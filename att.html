@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sk Md Salauddin</title>
+  <meta name="description" content="PhD Student in Mathematics" />
+  <meta property="og:title" content="Sk Md Salauddin" />
+  <meta property="og:description" content="PhD Student in Mathematics" />
+  <meta property="og:image" content="assets/profile_photo.webp" />
+
+  <script>
+    function loader() {
+      const last_modified_span = document.getElementById("last-modified");
+      const last_modified_time = new Date(document.lastModified);
+      last_modified_span.innerHTML = last_modified_time.toDateString();
+      document.querySelectorAll("a").forEach(url => {
+        url.target = "_blank";
+        url.rel = "noreferrer noopener";
+      });
+    }
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32" />
+
+  <!-- KaTeX for math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+
+<body onload="loader()">
+  <div class="container">
+    <div class="header">
+      <img src="assets/profile_photo.webp" width="200" alt="Sk Md Salauddin Photo" />
+      <h2 class="pc name">
+        Sk Md Salauddin <br />
+        স্ক মোঃ সলাউদ্দিন <br />
+        <a href="https://en.wikipedia.org/wiki/Bengali_phonology">IPA</a>: /sk mɔd̪ sa.la.u.d̪din/
+      </h2>
+      <h3 class="mobile name">Sk Md Salauddin<br />স্ক মোঃ সলাউদ্দিন<br /><a href="https://en.wikipedia.org/wiki/Bengali_phonology">IPA</a>: /sk mɔd̪ sa.la.u.d̪din/</h3>
+    </div>
+
+    <p>I am a PhD student in Mathematics, working on <strong>Functional Identities in Rings and Algebras</strong>.</p>
+
+    <p>I completed my Master’s degree in Mathematics and have taught both school and university-level courses including Elementary Calculus, Physics, and Physical Science.</p>
+
+    <p>My research interests include:
+    <ul>
+      <li>Functional Identities in Algebraic Structures</li>
+      <li>Structure Theory of Rings</li>
+      <li>Applications to Algebraic Geometry</li>
+    </ul>
+    I'm also comfortable working with programming languages such as Python, SageMath, and LaTeX for academic writing.</p>
+
+    <details>
+      <summary>Teaching</summary>
+      Currently teaching undergraduate mathematics courses and mentoring students in advanced topics like Complex and Tensor Analysis.
+    </details>
+
+    <details>
+      <summary>Upcoming</summary>
+      Working on a talk titled <em>"Functional Identities in Rings and Algebras"</em>.
+    </details>
+
+    <details>
+      <summary>Contact</summary>
+      Academic email: <a href="mailto:sk.salauddin@university.edu">sk.salauddin@university.edu</a><br />
+      Personal email: <a href="mailto:salauddin.maths@gmail.com">salauddin.maths@gmail.com</a>
+    </details>
+
+    <h3 class="Links">
+      <a class="button" href="docs/CV.pdf">CV</a>
+      <a class="button" href="https://github.com/yourusername">GitHub</a>
+      <a class="button" href="https://yourwebsite.com/blog">Blog</a>
+    </h3>
+
+    <hr />
+    <i>This page was last updated on <span id="last-modified"></span>.
+      <a href="https://github.com/yourusername/personal-website">(Source Code)</a></i>
+  </div>
+</body>
+
+</html>
